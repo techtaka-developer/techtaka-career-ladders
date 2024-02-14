@@ -1,6 +1,7 @@
 # Data Science Career Ladders
 
 ##### [Article](https://anitamehrotra.medium.com/data-science-career-ladders-6814fa0a8cc) | [Getting Started](#getting_started) | [Level Progression](#level_progression)
+##### [Original Version](https://github.com/anitameh/data-science-career-ladders)
 
 
 <a id='getting_started'></a>
