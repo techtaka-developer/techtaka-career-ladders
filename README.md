@@ -7,6 +7,10 @@
 <a id='getting_started'></a>
 ## Getting Started
 
+<picture>
+  <img alt="Template Chart" src="charts/template.png">
+</picture>
+
 <!-- ##### 1. Levels and Categories
 
 * There is no expectation that the your progress within the categories move in lockstep; in fact, it is highly unlikely that you fall into just one level for every category.
@@ -19,13 +23,6 @@
 * 오히려, 여러분의 레벨은 현재 대부분(3개 이상)의 카테고리가 특정 레벨에 속하는지 여부에 따라 결정됩니다.
 * 각 카테고리에서 이 레벨에 있기 위한 최소 요구 사항은 해당 카테고리의 항목에 설명되어 있습니다.
 
-<!-- ##### 2. Can you explain the track split for IC (individual contributor), and management?
-
-* Right before the Data Scientist V level*, the track splits into parallel tracks, one for management and one for individual contributor.
-* Here, expectations ramp up dramatically: each successive level now can be considered as representing a different job role than the previous level.
-* However, on either of the tracks, the expectations indicate a level of broad leadership, that requires thought leadership, as well as the ability to engage groups of people both within technology and outside of it to make bigger and bigger things happen.
-* The question to ask yourself here is “Do I want to build bigger and better systems, or do I want to manage bigger and better teams?” -->
-
 ##### 2. IC(개인 기여자)와 관리자 경로의 분리 설명
 * 데이터 사이언티스트 6 레벨에서 경로가 두 갈래로 나뉩니다. 하나는 관리 경로이고, 다른 하나는 개인 기여자(IC) 경로입니다.
 * 여기서 기대치는 크게 상승합니다: 6 이후 레벨은 이전 레벨과 다른 직무 역할을 나타내는 것으로 간주될 수 있습니다.
@@ -34,12 +31,6 @@
 
 이 설명은 경력 발전의 중요한 분기점에서의 선택에 대해 설명합니다. 개인 기여자(IC) 경로는 전문 기술 또는 분야에 대한 깊은 이해와 복잡한 문제 해결에 초점을 맞추며, 관리 경로는 팀 빌딩, 리더십 발휘, 전략적 계획 및 실행 등을 통해 조직의 목표 달성에 기여하는 데 중점을 둡니다. 이 선택은 개인의 성향, 역량 및 경력 목표에 따라 달라질 수 있습니다.
 
-<!-- ##### 3. Why are there are 7-8 levels, and where did this number come from?
-
-* These ladders were in large part built off of the awesome engineering ladders and best practices leveraged by e.g. Rent the Runway, Foursquare, Google, Airbnb, StitchFix, and Amazon. The majority of these ladders seemed to converge on approximately 7-8 levels, which is similarly reflected in these.
-* To date, there are no publicly available data science career ladders, to our knowledge. As such, these ladders were built, iterated on & discussed dozens of times, and refined with representatives from human resources, data science team leads and people managers.
-* It is totally anticipated that these ladders will evolve over time! If individuals on the team believe more levels should be added - or should be trimmed - to reflect the current state of the team and the industry, this is something your team should expect to discuss and incorporate accordingly.
-* Senior executives are likely either above or outside of the leveling (hence the "lightness" in level VII). -->
 
 ##### 3. 왜 7-8개의 레벨이 있나요, 그리고 이 숫자는 어디에서 왔나요?
 * 이 경력 사다리는 Rent the Runway, Foursquare, Google, Airbnb, StitchFix, Amazon 등이 활용한 훌륭한 엔지니어링 사다리와 최고의 실천법을 크게 참고하여 만들어졌습니다. 이들 대부분의 사다리는 대략 7-8개의 레벨로 수렴하는 경향이 있었으며, 이는 이 사다리에서도 비슷하게 반영됩니다.
@@ -47,12 +38,6 @@
 * 이 사다리들이 시간이 지남에 따라 발전할 것으로 전적으로 예상됩니다! 팀 내의 개인들이 더 많은 레벨이 추가되어야 한다고 믿거나, 팀과 업계의 현재 상태를 반영하기 위해 줄여야 한다고 생각한다면, 이는 팀이 논의하고 적절히 통합해야 할 사항입니다.
 * 고위 경영진은 레벨링 위에 있거나 레벨링 외부에 있을 가능성이 높습니다(이것이 레벨 9의 "가벼움"의 이유입니다).
 
-<!-- ##### 4. Some things of note
-
-* Importantly, you will notice that as you progress, the number of critical skills required for you to perform at the highest levels tend to fall in the categories centered around delivery, impact, and communication and leadership, _regardless of which track you pursue_.
-* Of course, these skills are necessarily built on core foundational technological skills, and it is an expectation (as outlined in the ladders) that you establish methods / processes / ways of working for yourself to stay abreast of industry-wide technological changes.
-* However, your core competencies as a team member and leader on this team as you grow in your career  will rely heavily on collaborative skills and empathy, aligned with the values of your team.
-* It is _highly recommended_ that before being promoted from Data Scientist IV to Data Scientist V, an individual has the experience of having the responsibility and accountability associated with being a squad lead. This will allow you to more effectively make an informed decision about which track you are currently interested in pursuing. -->
 
 ##### 4. 주목할 만한 몇 가지 사항들
 
@@ -70,7 +55,7 @@
 ##### [Data Scientist 3](#ds1) | [Data Scientist 4](#ds2) | [Data Scientist 5](#ds3) | [Data Scientist 6](#ds4) | [Data Scientist 7](#ds5) | [Data Scientist 8](#ds6) | [Data Scientist 9](#ds7)
 
 <a id='ds1'></a>
-### 데이터 사이언티스트 3
+### 데이터 사이언티스트 2
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
@@ -87,13 +72,13 @@
 - 팀에 상태를 효과적으로 전달함
 
 **소프트웨어 개발 및 엔지니어링 기술**
-- 팀 및 회사의 기존 도구, 자원 및 프로세스를 학습하고 사용하는 데 중점을 둠, 소프트웨어 개발에서의 이전 경험을 바탕으로 함
+- 팀 및 회사의 기존 tool, 자원 및 프로세스를 학습하고 사용하는 데 중점을 둠, 소프트웨어 개발에서의 이전 경험을 바탕으로 함
 
 **통계적 추론 및 수학적 모델링**
 - 기본적인 통계 개념에 대한 광범위한 지식을 보유(학사 학위 수준)
 
 
-### 데이터 사이언티스트 4
+### 데이터 사이언티스트 3
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
@@ -130,19 +115,17 @@
 - 관리자와 특정 모델링 영역에서 심층적인 전문 지식을 개발하는 것을 선택하거나 모델링 영역의 경험 범위를 개발하는 것의 이점/단점에 대해 정기적으로 대화를 나눔
 
 
-### 데이터 사이언티스트 5
+### 데이터 사이언티스트 4
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
 **영향력 및 영향**
 - 장애물에 직면했을 때 끈기를 보이며, 필요할 경우 다른 사람들을 끌어들여 신속하게 문제를 해결함
-- 명시적으로 할당되기 전에 문제를 해결하려는 주도성을 보임(이는 해당 팀에서 이러한 문화가 장려된다고 가정)
+- 명시적으로 할당되기 전에 문제를 해결하려는 주도성을 보임
 - 점점 더 복잡한 제품 기능을 제공하며, 이들이 잘 준비되고 버그가 없다고 믿음
 
 **리더십 및 팀워크**
 - 자신의 작업이나 타인의 작업에서 문제점/위험을 식별하고 표현할 때 개념 증명/테스트/외부 연구를 통해 경험적 증거를 찾고 사용함
-- 점심 시간 학습(Lunch & Learns)에 지속적으로 그리고 여러 번 기여함
-- 페어링, 디자인 및 코드 리뷰를 통해 신입 엔지니어 및 팀원에게 멘토링을 제공함
 - 자신의 팀에서 완료된 작업이 비즈니스에 미치는 영향과 영향을 받는 비즈니스 단위를 이해하며, 그 이해를 바탕으로 모든 당사자의 요구를 고려한 요구사항을 주도함
 - 구축되는 소프트웨어의 사용자에 대한 공감을 일관되게 보이며, 그것을 의사 결정의 지침으로 사용함
 
@@ -163,7 +146,7 @@
 - 업계 동향, 팀 및 회사의 인프라 및 빌드 시스템(bitbucket / git / 4D 포함)에 대한 지식을 보임
 
 
-### 데이터 사이언티스트 6
+### 데이터 사이언티스트 5
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
@@ -171,14 +154,13 @@
 - 장애물에 직면했을 때 끈기를 보이며, 필요할 경우 다른 사람들을 끌어들여 신속하게 문제를 해결함
 - 명시적으로 할당되기 전에 문제를 해결하려는 주도성을 보임(이는 해당 팀에서 이러한 문화가 장려된다고 가정)
 - 점점 더 복잡한 제품 기능을 제공하며, 이들이 잘 준비되고 버그가 없다고 믿음
-- 제품의 구성 요소 또는 전체 제품에 대한 종단간 책임을 가지며, 시간이 지남에 따라 점점 복잡해지는 제품에 기여함(이는 해당 팀에서 이러한 문화를 충분히 지원한다고 가정)
+- 제품의 구성 요소 또는 전체 제품에 대한 종단간 책임을 가지며, 시간이 지남에 따라 점점 복잡해지는 제품에 기여함
 - 기술적 부채를 "너무 큰" 즉, 해결하기 위해 상당한 사전 작업이 필요한 부채가 되기 전에 적극적으로 식별하고 해결함
 - 일을 잘 정의된 이정표로 범위를 정하고 단계를 나누어 모놀리식 결과물을 피함; 정확한 타임라인 추정을 지속적으로 작업하고 그 추정치에 따라 제공함
 - 자신의 제품에 대한 기술 테스트와 성능 측정을 소유하며, 드라마 없는 출시로 명성을 쌓아가고 있음
 
 **리더십 및 팀워크**
 - 자신의 작업이나 타인의 작업에서 문제점/위험을 식별하고 표현할 때 개념 증명/테스트/외부 연구를 통해 경험적 증거를 찾고 사용함
-- 점심 시간 학습(Lunch & Learns)에 지속적으로 그리고 여러 번 기여함
 - 페어링, 디자인 및 코드 리뷰를 통해 신입 엔지니어 및 팀원에게 멘토링을 제공함
 - 자신의 팀에서 완료된 작업이 비즈니스에 미치는 영향과 영향을 받는 비즈니스 단위를 이해하며, 그 이해를 바탕으로 모든 당사자의 요구를 고려한 요구사항을 주도함
 - 구축되는 소프트웨어의 사용자에 대한 공감을 일관되게 보이며, 그것을 의사 결정의 지침으로 사용함
@@ -214,7 +196,7 @@
 - 파트너 팀으로부터 데이터 과학 문제 정의를 이끌어내고 그들로부터 합의 및 조율을 달성함
 - 제품 요구사항을 매핑하여 구축해야 할 알고리즘/모델 출력을 결정할 수 있음
 
-### 데이터 사이언티스트 7
+### 데이터 사이언티스트 6
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
@@ -247,7 +229,7 @@
 |                                                 | 파트너 팀으로부터 데이터 과학 문제 정의를 이끌어내고 그들로부터 합의 및 조율을 달성함                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |                                                 | 제품 요구사항을 기술 솔루션에 지속적으로 매핑하며, 이 지식을 사용하여 구현 및 전달될 최종 알고리즘을 정제하고 결정함                                                                                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 
-### 데이터 사이언티스트 8
+### 데이터 사이언티스트 7
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
@@ -278,7 +260,7 @@
 |                                                     |                                                                                                                                                                                                                                                              | 필요할 경우 중요 시스템의 디버깅 및 문제 해결을 돕기 위해 뛰어들 수 있는 능력을 가짐                                                                                                                                                                                                                                   |
 |                                                     |                                                                                                                                                                                                                                                              | 해당 영역의 아키텍처와 비즈니스 요구 사항이 일치하도록 하는 데 필요한 올바른 질문을 제기함으로써 아키텍처에 기여하는 데 집중함                                                                                                                                                                                           |
 
-### 데이터 사이언티스트 9*
+### 데이터 사이언티스트 8*
 
 [<sub><sup>맨 위로 돌아가기</sub></sup>](#level_progression)
 
