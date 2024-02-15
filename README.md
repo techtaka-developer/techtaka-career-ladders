@@ -11,11 +11,6 @@
   <img alt="Template Chart" src="charts/template.png">
 </picture>
 
-<!-- ##### 1. Levels and Categories
-
-* There is no expectation that the your progress within the categories move in lockstep; in fact, it is highly unlikely that you fall into just one level for every category.
-* Rather, your level is determined by whether the majority (currently, 3+) of categories fall into a particular level.
-* The bullets outlined in each category are the minimum requirements for you to be at this level in that category. -->
 
 ##### 1. 레벨과 영역 (카테고리)
 
