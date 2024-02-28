@@ -356,113 +356,107 @@ datascience_desc = {
 }
 
 
+ds_level_stats = {
+    'Data Scientist': {
+        3: {
+            'Technology': 1,
+            'System': 1,
+            'People': 1,
+            'Process': 1,
+            'Influence': 1
+        },
+        4: {
+            'Technology': 2,
+            'System': 2,
+            'People': 2,
+            'Process': 1,
+            'Influence': 2
 
-l3_ds = {
-    'Technology': 1,
-    'System': 1,
-    'People': 1,
-    'Process': 1,
-    'Influence': 1
+        },
+        5: {
+            'Technology': 3,
+            'System': 4,
+            'People': 3,
+            'Process': 2,
+            'Influence': 2
+
+        },
+        6: {
+            'Technology': 4,
+            'System': 4,
+            'People': 3,
+            'Process': 3,
+            'Influence': 3
+        },
+    },
+    'Tech Lead': {
+        5: {
+            'Technology': 3,
+            'System': 4,
+            'People': 4,
+            'Process': 3,
+            'Influence': 2
+        },
+        6: {
+            'Technology': 4,
+            'System': 5,
+            'People': 4,
+            'Process': 4,
+            'Influence': 3
+
+        },
+        7: {
+            'Technology': 5,
+            'System': 5,
+            'People': 4,
+            'Process': 5,
+            'Influence': 4
+
+        },
+        8: {
+            'Technology': 5,
+            'System': 5,
+            'People': 4,
+            'Process': 5,
+            'Influence': 5
+        },
+    },
+    'Engineering Manager': {
+        5: {
+            'Technology': 3,
+            'System': 3,
+            'People': 4,
+            'Process': 4,
+            'Influence': 2
+       },
+        6: {
+            'Technology': 4,
+            'System': 4,
+            'People': 5,
+            'Process': 5,
+            'Influence': 3
+
+        },
+        7: {
+            'Technology': 4,
+            'System': 4,
+            'People': 5,
+            'Process': 5,
+            'Influence': 4
+
+        },
+        8: {
+            'Technology': 4,
+            'System': 4,
+            'People': 5,
+            'Process': 5,
+            'Influence': 5
+        },
+    },
 }
 
-l4_ds = {
-    'Technology': 2,
-    'System': 2,
-    'People': 2,
-    'Process': 1,
-    'Influence': 2
-}
 
-l5_ds = {
-    'Technology': 3,
-    'System': 4,
-    'People': 3,
-    'Process': 2,
-    'Influence': 2
-}
-
-l6_ds = {
-    'Technology': 4,
-    'System': 4,
-    'People': 3,
-    'Process': 3,
-    'Influence': 3
-}
-
-
-l5_tl = {
-    'Technology': 3,
-    'System': 4,
-    'People': 4,
-    'Process': 3,
-    'Influence': 2
-}
-
-l6_tl = {
-    'Technology': 4,
-    'System': 5,
-    'People': 4,
-    'Process': 4,
-    'Influence': 3
-}
-
-l7_tl = {
-    'Technology': 5,
-    'System': 5,
-    'People': 4,
-    'Process': 5,
-    'Influence': 4
-}
-
-l8_tl = {
-    'Technology': 5,
-    'System': 5,
-    'People': 4,
-    'Process': 5,
-    'Influence': 5
-}
-
-l5_em = {
-    'Technology': 3,
-    'System': 3,
-    'People': 4,
-    'Process': 4,
-    'Influence': 2
-}
-
-l6_em = {
-    'Technology': 4,
-    'System': 4,
-    'People': 5,
-    'Process': 5,
-    'Influence': 3
-}
-
-l7_em = {
-    'Technology': 4,
-    'System': 4,
-    'People': 5,
-    'Process': 5,
-    'Influence': 4
-}
-
-l8_em = {
-    'Technology': 4,
-    'System': 4,
-    'People': 5,
-    'Process': 5,
-    'Influence': 5
-}
-
-levels = l6_tl
-# Create a RadarChart instance with the categories, levels, and custom y-ticks
-radar_chart = RadarChart(categories, levels, yticks_labels)
-
-# Generate and save the chart as a PNG file
-radar_chart.create_chart('charts/radar_chart_with_yticks.png')
-
-
-leveling_guide = f"""
+readme = f"""
 {axes_desc}
 
 ## Levels - Level을 결정하는 요소에 대한 설명
@@ -470,25 +464,44 @@ leveling_guide = f"""
 """
 
 for cat in categories:
-    leveling_guide += f"""
+    readme += f"""
 ### {cat}
     """
     for lvl in datascience_desc[cat]:
-        leveling_guide += f"""
+        readme += f"""
 {datascience_desc[cat][lvl]}
 """
 
-with open('out_str.md', 'w') as f:
-    f.write(leveling_guide)
+
+for job, val in ds_level_stats.items():
+    for level, stats in val.items():
+        levels = stats
+        # Create a RadarChart instance with the categories, levels, and custom y-ticks
+        radar_chart = RadarChart(categories, levels, yticks_labels)
+        # Generate and save the chart as a PNG file
+        position = f'{job} {level}'
+        pic_file_loc = f'charts/{position}.png'
+        radar_chart.create_chart(pic_file_loc)
 
 
-jb_specfic = """
+        jb_specific = f"""
+        
+<picture>
+  <img alt="Template Chart" src="{pic_file_loc}">
+</picture>
 
-"""
+        """
+        for k, v in stats.items():
+            for l in levels:
+                jb_specific += datascience_desc[k][v]
 
-for l in levels:
-    jb_specfic += datascience_desc[l][levels[l]]
+        out_file_loc = f'{position}.md'
+        with open(out_file_loc, 'w') as f:
+            f.write(jb_specific)
 
-with open('jb_specfic.md', 'w') as f:
-    f.write(jb_specfic)
+        readme += f"""
+* [{position}]({out_file_loc})"""
+
+with open('README.md', 'w') as f:
+    f.write(readme)
 
