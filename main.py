@@ -499,6 +499,9 @@ for job, val in ds_level_stats.items():
 
         """
         for k, v in stats.items():
+            jb_specific += f"""
+### {k}
+            """
             jb_specific += datascience_desc[k][v]
         jb_specific += f"""
 {readme_navigator}"""
