@@ -470,7 +470,16 @@ radar_chart = RadarChart(categories, levels, yticks_labels)
 pic_file_loc = f'charts/template.png'
 radar_chart.create_chart(pic_file_loc)
 
-readme_navigator = ""
+readme_navigator = "#### [README](README.md)"
+
+for job, val in ds_level_stats.items():
+    for level, stats in val.items():
+        position = f'{job} {level}'
+        out_file_loc = f'{position}.md'
+
+        readme_navigator += f"""
+* [{position}]({out_file_loc})"""
+
 
 for job, val in ds_level_stats.items():
     for level, stats in val.items():
@@ -482,10 +491,8 @@ for job, val in ds_level_stats.items():
         pic_file_loc = f'charts/{position}.png'
         radar_chart.create_chart(pic_file_loc)
 
-
         jb_specific = f"""
-##### [README](README.md)
-       
+{readme_navigator}
 <picture>
   <img alt="Template Chart" src="{pic_file_loc}">
 </picture>
@@ -493,15 +500,12 @@ for job, val in ds_level_stats.items():
         """
         for k, v in stats.items():
             jb_specific += datascience_desc[k][v]
-        jb_specific += """
-##### [README](README.md)"""
+        jb_specific += f"""
+{readme_navigator}"""
 
         out_file_loc = f'{position}.md'
         with open(out_file_loc, 'w') as f:
             f.write(jb_specific)
-
-        readme_navigator += f"""
-* [{position}]({out_file_loc})"""
 
 
 readme = f"""

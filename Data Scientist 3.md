@@ -1,6 +1,17 @@
 
-##### [README](README.md)
-       
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)
 <picture>
   <img alt="Template Chart" src="charts/Data Scientist 3.png">
 </picture>
@@ -42,4 +53,16 @@
 #### Individual: 개인의 전문성을 바탕으로 특정 데이터 과학 프로젝트나 서브 시스템에 영향을 미칩니다
 
 * 개인이 보유한 데이터 과학 기술과 지식을 활용하여 프로젝트의 성공에 기여하며, 특정 분석 모델이나 데이터 처리 시스템의 개선을 주도합니다. 이러한 기여는 프로젝트의 결과물 품질을 높이고, 팀 내에서의 전문성을 인정받게 만듭니다.
-##### [README](README.md)
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)

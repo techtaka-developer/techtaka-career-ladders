@@ -1,6 +1,17 @@
 
-##### [README](README.md)
-       
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)
 <picture>
   <img alt="Template Chart" src="charts/Tech Lead 8.png">
 </picture>
@@ -52,4 +63,16 @@
 * 데이터 과학의 영향력을 회사 전체로 확장하여, 비기술 부서를 포함한 조직 전반의 데이터 기반 문화를 강화합니다. 데이터 과학을 통해 얻은 인사이트와 솔루션이 회사의 전략적 의사결정 과정에 중요한 역할을 하며, 비즈니스의 성장과 혁신을 이끕니다.
 
 
-##### [README](README.md)
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)

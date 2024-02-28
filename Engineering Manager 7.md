@@ -1,6 +1,17 @@
 
-##### [README](README.md)
-       
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)
 <picture>
   <img alt="Template Chart" src="charts/Engineering Manager 7.png">
 </picture>
@@ -49,4 +60,16 @@
 #### Engineering: 엔지니어링 전체 조직에 영향을 미치며, 여러 데이터 과학 및 엔지니어링 팀 간의 협력을 촉진합니다
 
 * 데이터 과학의 범위를 넘어 엔지니어링 조직 전체에 걸쳐 협업과 지식 공유를 촉진하며, 다학제 간의 프로젝트에서 중추적인 역할을 수행합니다. 이는 기술 및 엔지니어링 분야에서의 혁신과 효율성 증대에 기여합니다.
-##### [README](README.md)
+#### [README](README.md)
+* [Data Scientist 3](Data Scientist 3.md)
+* [Data Scientist 4](Data Scientist 4.md)
+* [Data Scientist 5](Data Scientist 5.md)
+* [Data Scientist 6](Data Scientist 6.md)
+* [Tech Lead 5](Tech Lead 5.md)
+* [Tech Lead 6](Tech Lead 6.md)
+* [Tech Lead 7](Tech Lead 7.md)
+* [Tech Lead 8](Tech Lead 8.md)
+* [Engineering Manager 5](Engineering Manager 5.md)
+* [Engineering Manager 6](Engineering Manager 6.md)
+* [Engineering Manager 7](Engineering Manager 7.md)
+* [Engineering Manager 8](Engineering Manager 8.md)
