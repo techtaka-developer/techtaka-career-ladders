@@ -1,5 +1,6 @@
 
-        
+##### [README](README.md)
+       
 <picture>
   <img alt="Template Chart" src="charts/Engineering Manager 5.png">
 </picture>
@@ -230,3 +231,4 @@
 #### Team: 데이터 과학 팀 전체에 걸쳐 영향을 끼치며, 팀의 성과와 역량 강화에 기여합니다
 
 * 데이터 과학 분야에서의 깊은 지식과 경험을 팀원들과 공유하며, 팀 전체의 데이터 분석 및 모델링 역량을 향상시킵니다. 협업과 지식 공유를 통해 팀의 전반적인 성과를 높이고, 팀 내 혁신과 성장을 촉진합니다.
+##### [README](README.md)

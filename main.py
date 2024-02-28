@@ -43,7 +43,7 @@ class RadarChart:
                         ax.text(angle, level, label, horizontalalignment='center', size=7, color='grey')
 
         # Add a title
-        plt.title('Level guide for each segment', size=20, color="black", y=1.1)
+        # plt.title('Data Science Ladder', size=20, color="black", y=1.1)
         # plt.show()
         # Save the figure
         plt.savefig(output_filename, bbox_inches='tight')
@@ -456,7 +456,66 @@ ds_level_stats = {
 }
 
 
+levels = {
+    'Technology': 0,
+    'System': 0,
+    'People': 0,
+    'Process': 0,
+    'Influence': 0
+}
+
+
+radar_chart = RadarChart(categories, levels, yticks_labels)
+# Generate and save the chart as a PNG file
+pic_file_loc = f'charts/template.png'
+radar_chart.create_chart(pic_file_loc)
+
+readme_navigator = ""
+
+for job, val in ds_level_stats.items():
+    for level, stats in val.items():
+        levels = stats
+        # Create a RadarChart instance with the categories, levels, and custom y-ticks
+        radar_chart = RadarChart(categories, levels, yticks_labels)
+        # Generate and save the chart as a PNG file
+        position = f'{job} {level}'
+        pic_file_loc = f'charts/{position}.png'
+        radar_chart.create_chart(pic_file_loc)
+
+
+        jb_specific = f"""
+##### [README](README.md)
+       
+<picture>
+  <img alt="Template Chart" src="{pic_file_loc}">
+</picture>
+
+        """
+        for k, v in stats.items():
+            for l in levels:
+                jb_specific += datascience_desc[k][v]
+        jb_specific += """
+##### [README](README.md)"""
+
+        out_file_loc = f'{position}.md'
+        with open(out_file_loc, 'w') as f:
+            f.write(jb_specific)
+
+        readme_navigator += f"""
+* [{position}]({out_file_loc})"""
+
+
 readme = f"""
+# Data Science Ladders
+<picture>
+  <img alt="Template Chart" src="charts/template.png">
+</picture>
+
+{readme_navigator}
+"""
+
+readme += f"""
+
 {axes_desc}
 
 ## Levels - Level을 결정하는 요소에 대한 설명
@@ -472,35 +531,7 @@ for cat in categories:
 {datascience_desc[cat][lvl]}
 """
 
-
-for job, val in ds_level_stats.items():
-    for level, stats in val.items():
-        levels = stats
-        # Create a RadarChart instance with the categories, levels, and custom y-ticks
-        radar_chart = RadarChart(categories, levels, yticks_labels)
-        # Generate and save the chart as a PNG file
-        position = f'{job} {level}'
-        pic_file_loc = f'charts/{position}.png'
-        radar_chart.create_chart(pic_file_loc)
-
-
-        jb_specific = f"""
-        
-<picture>
-  <img alt="Template Chart" src="{pic_file_loc}">
-</picture>
-
-        """
-        for k, v in stats.items():
-            for l in levels:
-                jb_specific += datascience_desc[k][v]
-
-        out_file_loc = f'{position}.md'
-        with open(out_file_loc, 'w') as f:
-            f.write(jb_specific)
-
-        readme += f"""
-* [{position}]({out_file_loc})"""
+readme += readme_navigator
 
 with open('README.md', 'w') as f:
     f.write(readme)

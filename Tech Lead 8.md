@@ -1,5 +1,6 @@
 
-        
+##### [README](README.md)
+       
 <picture>
   <img alt="Template Chart" src="charts/Tech Lead 8.png">
 </picture>
@@ -234,3 +235,5 @@
 
 * 데이터 과학의 영향력을 회사 전체로 확장하여, 비기술 부서를 포함한 조직 전반의 데이터 기반 문화를 강화합니다. 데이터 과학을 통해 얻은 인사이트와 솔루션이 회사의 전략적 의사결정 과정에 중요한 역할을 하며, 비즈니스의 성장과 혁신을 이끕니다.
 
+
+##### [README](README.md)

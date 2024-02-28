@@ -1,5 +1,6 @@
 
-        
+##### [README](README.md)
+       
 <picture>
   <img alt="Template Chart" src="charts/Engineering Manager 6.png">
 </picture>
@@ -220,3 +221,4 @@
 #### Platform: 단일 팀을 넘어 여러 팀 및 플랫폼 전반에 걸쳐 영향을 미치며, 조직의 데이터 과학 전략에 기여합니다
 
 * 조직 내 다양한 데이터 과학 팀과 협업하여, 데이터 기반의 의사결정 프로세스를 강화하고, 조직 전반의 데이터 과학 역량을 향상시킵니다. 이는 조직의 데이터 분석 및 모델링 플랫폼의 발전과 혁신에 중요한 역할을 합니다.
+##### [README](README.md)
