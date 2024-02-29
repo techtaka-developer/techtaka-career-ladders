@@ -53,13 +53,6 @@ class RadarChart:
 # Example usage:
 categories = ['Technology', 'System', 'People', 'Process', 'Influence']
 
-levels = {
-    'Technology': 3,
-    'System': 2,
-    'People': 5,
-    'Process': 4,
-    'Influence': 5
-}
 # Define custom y-tick labels for each category
 yticks_labels = {
     'Technology': ["Adopts", "Specializes", "Evangelizes", "Masters", "Creates"],
