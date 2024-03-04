@@ -52,8 +52,8 @@ class RadarChart:
 
         # Custom dotted lines
         for ytick in yticks:
-            ax.plot(angles, [ytick] * len(angles), linestyle=(0, (3, 5)), color="grey", linewidth=0.5)
-        ax.plot(angles, [yticks[-1]] * len(angles), linestyle=(0, (1, 0)), color="black", linewidth=0.5)
+            ax.plot(angles, [ytick] * len(angles), linestyle=(0, (6, 6)), color="grey", linewidth=0.4)
+        ax.plot(angles, [yticks[-1]] * len(angles), linestyle=(0, (1, 0)), color="black", linewidth=0.6)
 
     def _plot_data(self, ax, angles):
         """Plot the data on the radar chart."""
