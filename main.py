@@ -3,49 +3,74 @@ import numpy as np
 
 
 class RadarChart:
-    def __init__(self, categories, levels, yticks_labels=None):
+    def __init__(self, categories, levels, yticks_labels=None, area_color='red', line_style='dotted'):
         self.categories = categories
         self.levels = levels
         self.num_vars = len(categories)
-        self.yticks_labels = yticks_labels if yticks_labels else {}
+        self.yticks_labels = yticks_labels or {}
+        self.area_color = area_color
+        self.line_style = line_style
 
-    def create_chart(self, output_filename):
-        # Calculate the angle for each category
-        angles = [n / float(self.num_vars) * 2 * np.pi for n in range(self.num_vars)]
-        angles += angles[:1]  # Complete the loop
+    def _calculate_angles(self):
+        """Calculate angles for radar chart categories."""
+        return np.linspace(0, 2 * np.pi, self.num_vars, endpoint=False).tolist() + [0]
 
-        # Initiate the spider plot
-        fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(polar=True))
-
-        # Rotate the chart so that the first axis is at the top
+    def _setup_chart(self, ax):
+        """Set up the radar chart, including axes and gridlines."""
+        angles = self._calculate_angles()
         ax.set_theta_offset(np.pi / 2)
         ax.set_theta_direction(-1)
 
-        # Draw one axe per variable and add labels
-        plt.xticks(angles[:-1], self.categories)
+        # Draw axes labels
+        ax.set_xticks(angles[:-1])
+        ax.set_xticklabels(self.categories, size=10, color='black', fontweight='roman')
 
-        # Draw ylabels
-        ax.set_rlabel_position(0)
-        plt.yticks([1, 2, 3, 4, 5], ["", "", "", "", ""], color="grey", size=7)
-
-        plt.ylim(0, 5)
-
-        # Plot data and fill with color
-        values = [self.levels[cat] for cat in self.categories] + [self.levels[self.categories[0]]]
-        ax.plot(angles, values, linewidth=2, linestyle='solid')
-        ax.fill(angles, values, alpha=0.25)
-
+        # Configure y-ticks
+        yticks = np.arange(1, 7)
+        yticklabels = [self.yticks_labels.get(ytick, '') for ytick in yticks]
+        ax.set_yticks(yticks)
+        ax.set_yticklabels(yticklabels)
+        ax.set_ylim(0, 6)
         # Add custom y-tick labels if provided
         if self.yticks_labels:
             for cat, angle in zip(self.categories, angles):
                 if cat in self.yticks_labels:
                     for level, label in enumerate(self.yticks_labels[cat], start=1):
-                        ax.text(angle, level, label, horizontalalignment='center', size=7, color='grey')
+                        ax.text(angle,
+                                level,
+                                label,
+                                horizontalalignment='left',
+                                verticalalignment='top',
+                                size=8,
+                                color='grey',
+                                fontweight='roman',
+                                )
 
-        # Add a title
-        # plt.title('Data Science Ladder', size=20, color="black", y=1.1)
-        # plt.show()
-        # Save the figure
+        # Remove the default grid and outer circle
+        ax.yaxis.grid(False)
+        ax.spines['polar'].set_visible(False)
+
+        # Custom dotted lines
+        for ytick in yticks:
+            ax.plot(angles, [ytick] * len(angles), linestyle=(0, (3, 5)), color="grey", linewidth=0.5)
+        ax.plot(angles, [yticks[-1]] * len(angles), linestyle=(0, (1, 0)), color="black", linewidth=0.5)
+
+    def _plot_data(self, ax, angles):
+        """Plot the data on the radar chart."""
+        values = [self.levels[cat] for cat in self.categories] + [self.levels[self.categories[0]]]
+        ax.plot(angles, values, linewidth=2, linestyle='solid', color=self.area_color)
+        ax.fill(angles, values, color=self.area_color, alpha=0.1)
+
+    def create_chart(self, output_filename):
+        fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(polar=True))
+        self._setup_chart(ax)
+        angles = self._calculate_angles()
+        self._plot_data(ax, angles)
+
+        # Add bot at the center
+        ax.plot(0, 0, 'o', markersize=10, color='royalblue')
+        ax.plot(0, 0, 'o', markersize=3, color='white')
+
         plt.savefig(output_filename, bbox_inches='tight')
         plt.close()
 
@@ -475,10 +500,17 @@ for job, val in ds_level_stats.items():
 
 
 for job, val in ds_level_stats.items():
+    if job == 'Data Scientist':
+        area_color = 'orange'
+    elif job == 'Tech Lead':
+        area_color = 'mediumturquoise'
+    else:
+        area_color = 'crimson'
+
     for level, stats in val.items():
         levels = stats
         # Create a RadarChart instance with the categories, levels, and custom y-ticks
-        radar_chart = RadarChart(categories, levels, yticks_labels)
+        radar_chart = RadarChart(categories, levels, yticks_labels, area_color)
         # Generate and save the chart as a PNG file
         position = f'{job} {level}'
         pic_file_loc = f'charts/{position}.png'
