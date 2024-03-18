@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from pathlib import Path
 
+
+Path("charts/").mkdir(parents=True, exist_ok=True)
 
 class RadarChart:
     def __init__(self, categories, levels, yticks_labels=None, area_color='red', line_style='dotted'):
