@@ -1,0 +1,56 @@
+
+#### [README](README.md)
+* [Product Manager 3](Product Manager 3.md)
+* [Product Manager 4](Product Manager 4.md)
+* [Product Manager 5](Product Manager 5.md)
+* [Product Manager 6](Product Manager 6.md)
+* [Product Manager 7](Product Manager 7.md)
+<picture>
+  <img alt="Template Chart" src="charts/Product Manager 3.png">
+</picture>
+
+        
+### Skillset
+            
+#### Adopts
+
+* 현재의 기술과 도구를 효과적으로 활용하여 결과를 제공합니다. 현재의 도구와 프로세스에 대한 능숙함을 보여줍니다.
+
+* 기술적 지식을 활용하여 루틴 업무를 해결하고 팀 목표에 효율적으로 기여합니다.
+        
+### Problem Solving
+            
+#### Understands
+
+* 미리 정의된 목표와 일정 내에서 결과물을 제공하여 프로젝트 목표를 효과적으로 달성합니다.
+
+* 작업 및 프로젝트를 효율적으로 실행하여 팀의 우선 순위와 일치시키고 품질 높은 결과물을 제공합니다.
+
+### Communication
+            
+#### Learns
+
+* 팀 내에서 미리 의사 소통하며 도움을 요청하고 장애물을 해결하기 위해 적극적으로 노력하여 협업적이고 지원적인 분위기를 조성합니다.
+
+* 업데이트와 진행 상황을 투명하게 공유하여 모든 이가 프로젝트 상태와 우선 순위에 대해 정보를 받고 합의되어 있도록 합니다.
+
+### Process
+            
+#### Follows
+
+* 시간과 업무를 효과적으로 관리하여 생산성을 최적화하고 팀의 성공에 기여합니다.
+
+### Influence
+            
+#### Individual
+
+* 시간을 효과적으로 관리하고 필요할 때 지원을 요청하여, 장애물을 극복하는데 있어 자기 인식과 책임감을 보입니다.
+
+* 팀 내에서 이해관계자 경험을 향상시키는 데 기여하여, 프로젝트의 성공을 지원하기 위한 의견을 제공합니다.
+
+#### [README](README.md)
+* [Product Manager 3](Product Manager 3.md)
+* [Product Manager 4](Product Manager 4.md)
+* [Product Manager 5](Product Manager 5.md)
+* [Product Manager 6](Product Manager 6.md)
+* [Product Manager 7](Product Manager 7.md)
