@@ -1,5 +1,5 @@
 
-# Data Science Ladders
+# Product Manager Ladders
 <picture>
   <img alt="Template Chart" src="charts/template.png">
 </picture>
