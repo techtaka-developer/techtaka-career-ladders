@@ -337,25 +337,25 @@ ds_level_stats = {
 
         },
         5: {
-            'Skillset': 3,
+            'Skillset': 2,
             'Problem Solving': 3,
             'Communication': 3,
-            'Process': 3,
+            'Process': 2,
             'Influence': 3
 
         },
         6: {
-            'Skillset': 4,
+            'Skillset': 3,
             'Problem Solving': 4,
-            'Communication': 5,
-            'Process': 4,
-            'Influence': 5
+            'Communication': 4,
+            'Process': 3,
+            'Influence': 4
         },
         7: {
-            'Skillset': 5,
+            'Skillset': 4,
             'Problem Solving': 5,
             'Communication': 5,
-            'Process': 5,
+            'Process': 4,
             'Influence': 5
         },
     },
