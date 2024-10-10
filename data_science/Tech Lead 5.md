@@ -1,28 +1,28 @@
 
 #### [README](README.md)
-* [Data Scientist 3](Data Scientist 3.md)
+##### [Data Scientist 3](Data Scientist 3.md)
 
-* [Data Scientist 4](Data Scientist 4.md)
+##### [Data Scientist 4](Data Scientist 4.md)
 
-* [Data Scientist 5](Data Scientist 5.md)
+##### [Data Scientist 5](Data Scientist 5.md)
 
-* [Data Scientist 6](Data Scientist 6.md)
+##### [Data Scientist 6](Data Scientist 6.md)
 
-* [Tech Lead 5](Tech Lead 5.md)
+##### [Tech Lead 5](Tech Lead 5.md)
 
-* [Tech Lead 6](Tech Lead 6.md)
+##### [Tech Lead 6](Tech Lead 6.md)
 
-* [Tech Lead 7](Tech Lead 7.md)
+##### [Tech Lead 7](Tech Lead 7.md)
 
-* [Tech Lead 8](Tech Lead 8.md)
+##### [Tech Lead 8](Tech Lead 8.md)
 
-* [Engineering Manager 5](Engineering Manager 5.md)
+##### [Engineering Manager 5](Engineering Manager 5.md)
 
-* [Engineering Manager 6](Engineering Manager 6.md)
+##### [Engineering Manager 6](Engineering Manager 6.md)
 
-* [Engineering Manager 7](Engineering Manager 7.md)
+##### [Engineering Manager 7](Engineering Manager 7.md)
 
-* [Engineering Manager 8](Engineering Manager 8.md)
+##### [Engineering Manager 8](Engineering Manager 8.md)
 
 <picture>
   <img alt="Template Chart" src="charts/Tech Lead 5.png">
@@ -83,26 +83,26 @@
 
 * 데이터 과학 분야에서의 깊은 지식과 경험을 팀원들과 공유하며, 팀 전체의 데이터 분석 및 모델링 역량을 향상시킵니다. 협업과 지식 공유를 통해 팀의 전반적인 성과를 높이고, 팀 내 혁신과 성장을 촉진합니다.
 #### [README](README.md)
-* [Data Scientist 3](Data Scientist 3.md)
+##### [Data Scientist 3](Data Scientist 3.md)
 
-* [Data Scientist 4](Data Scientist 4.md)
+##### [Data Scientist 4](Data Scientist 4.md)
 
-* [Data Scientist 5](Data Scientist 5.md)
+##### [Data Scientist 5](Data Scientist 5.md)
 
-* [Data Scientist 6](Data Scientist 6.md)
+##### [Data Scientist 6](Data Scientist 6.md)
 
-* [Tech Lead 5](Tech Lead 5.md)
+##### [Tech Lead 5](Tech Lead 5.md)
 
-* [Tech Lead 6](Tech Lead 6.md)
+##### [Tech Lead 6](Tech Lead 6.md)
 
-* [Tech Lead 7](Tech Lead 7.md)
+##### [Tech Lead 7](Tech Lead 7.md)
 
-* [Tech Lead 8](Tech Lead 8.md)
+##### [Tech Lead 8](Tech Lead 8.md)
 
-* [Engineering Manager 5](Engineering Manager 5.md)
+##### [Engineering Manager 5](Engineering Manager 5.md)
 
-* [Engineering Manager 6](Engineering Manager 6.md)
+##### [Engineering Manager 6](Engineering Manager 6.md)
 
-* [Engineering Manager 7](Engineering Manager 7.md)
+##### [Engineering Manager 7](Engineering Manager 7.md)
 
-* [Engineering Manager 8](Engineering Manager 8.md)
+##### [Engineering Manager 8](Engineering Manager 8.md)
