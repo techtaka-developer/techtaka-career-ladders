@@ -1,10 +1,15 @@
 
 #### [README](README.md)
-[Product Manager 3](Product Manager 3.md)
-[Product Manager 4](Product Manager 4.md)
-[Product Manager 5](Product Manager 5.md)
-[Product Manager 6](Product Manager 6.md)
-[Product Manager 7](Product Manager 7.md)
+* [Product Manager 3](Product Manager 3.md)
+
+* [Product Manager 4](Product Manager 4.md)
+
+* [Product Manager 5](Product Manager 5.md)
+
+* [Product Manager 6](Product Manager 6.md)
+
+* [Product Manager 7](Product Manager 7.md)
+
 <picture>
   <img alt="Template Chart" src="charts/Product Manager 7.png">
 </picture>
@@ -55,8 +60,12 @@
 * 제품 매니저 및 엔지니어링 매니저들에게 지도와 멘토십을 제공하여 우수성을 추구하고 조직의 성공을 이끌어냅니다.
 
 #### [README](README.md)
-[Product Manager 3](Product Manager 3.md)
-[Product Manager 4](Product Manager 4.md)
-[Product Manager 5](Product Manager 5.md)
-[Product Manager 6](Product Manager 6.md)
-[Product Manager 7](Product Manager 7.md)
+* [Product Manager 3](Product Manager 3.md)
+
+* [Product Manager 4](Product Manager 4.md)
+
+* [Product Manager 5](Product Manager 5.md)
+
+* [Product Manager 6](Product Manager 6.md)
+
+* [Product Manager 7](Product Manager 7.md)
