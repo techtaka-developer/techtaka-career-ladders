@@ -1,10 +1,10 @@
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)
 <picture>
   <img alt="Template Chart" src="charts/Product Manager 4.png">
 </picture>
@@ -55,8 +55,8 @@
 * 전문지식을 활용하여 팀 내에서 혁신을 주도하고 의사 결정에 영향을 미치며, 의미 있는 영향을 창출하여 프로젝트의 성공을 이끌어 냅니다.
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)

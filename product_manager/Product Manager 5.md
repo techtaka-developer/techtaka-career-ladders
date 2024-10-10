@@ -1,10 +1,10 @@
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)
 <picture>
   <img alt="Template Chart" src="charts/Product Manager 5.png">
 </picture>
@@ -55,8 +55,8 @@
 * 플랫폼 내에서 고객 경험을 주도하고 혁신과 우수성을 증명하는 리더십을 발휘합니다.
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)

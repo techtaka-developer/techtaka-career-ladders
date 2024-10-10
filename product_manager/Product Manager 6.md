@@ -1,10 +1,10 @@
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)
 <picture>
   <img alt="Template Chart" src="charts/Product Manager 6.png">
 </picture>
@@ -57,8 +57,8 @@
 * 팀에게 전략적인 지도와 멘토십을 제공하여 조직의 방향을 형성하고 비즈니스 성장을 촉진합니다.
 
 #### [README](README.md)
-* [Product Manager 3](Product Manager 3.md)
-* [Product Manager 4](Product Manager 4.md)
-* [Product Manager 5](Product Manager 5.md)
-* [Product Manager 6](Product Manager 6.md)
-* [Product Manager 7](Product Manager 7.md)
+[Product Manager 3](Product Manager 3.md)
+[Product Manager 4](Product Manager 4.md)
+[Product Manager 5](Product Manager 5.md)
+[Product Manager 6](Product Manager 6.md)
+[Product Manager 7](Product Manager 7.md)
