@@ -1,14 +1,14 @@
 
 #### [README](README.md)
-##### [Product Manager 3](Product Manager 3.md)
+* [Product Manager 3](Product Manager 3.md)
 
-##### [Product Manager 4](Product Manager 4.md)
+* [Product Manager 4](Product Manager 4.md)
 
-##### [Product Manager 5](Product Manager 5.md)
+* [Product Manager 5](Product Manager 5.md)
 
-##### [Product Manager 6](Product Manager 6.md)
+* [Product Manager 6](Product Manager 6.md)
 
-##### [Product Manager 7](Product Manager 7.md)
+* [Product Manager 7](Product Manager 7.md)
 
 <picture>
   <img alt="Template Chart" src="charts/Product Manager 3.png">
@@ -54,12 +54,12 @@
 * 팀 내에서 이해관계자 경험을 향상시키는 데 기여하여, 프로젝트의 성공을 지원하기 위한 의견을 제공합니다.
 
 #### [README](README.md)
-##### [Product Manager 3](Product Manager 3.md)
+* [Product Manager 3](Product Manager 3.md)
 
-##### [Product Manager 4](Product Manager 4.md)
+* [Product Manager 4](Product Manager 4.md)
 
-##### [Product Manager 5](Product Manager 5.md)
+* [Product Manager 5](Product Manager 5.md)
 
-##### [Product Manager 6](Product Manager 6.md)
+* [Product Manager 6](Product Manager 6.md)
 
-##### [Product Manager 7](Product Manager 7.md)
+* [Product Manager 7](Product Manager 7.md)
