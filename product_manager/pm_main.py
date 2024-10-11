@@ -390,7 +390,7 @@ for job, val in ds_level_stats.items():
         out_file_loc = f'{position}.md'
 
         readme_navigator += f"""
-* [{position}]({out_file_loc})
+* [{position}]({out_file_loc.replace(' ', '%20')})
 """
 
 
